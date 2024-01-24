@@ -4,6 +4,7 @@ import About from "./pages/About.jsx"
 import SignIn from "./pages/SignIn.jsx"
 import SignUp from "./pages/SignUp.jsx"
 import Header from "./components/Header";
+import FooterCom from "./components/Footer.jsx";
 export default function(){
   return(
     <BrowserRouter>
@@ -14,6 +15,7 @@ export default function(){
         <Route path="/sign-in" element={<SignIn />}/>
         <Route path="/sign-up" element={<SignUp />}/>
       </Routes>
+      <FooterCom />
     </BrowserRouter>
   )
 }
