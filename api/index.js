@@ -20,6 +20,7 @@ mongoose
   });
 
 const __dirname = path.resolve();
+// console.log("Dirname: ",__dirname)
 
 const app = express();
 
